@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              metadata-complete="false"
+>
+
+    <servlet>
+        <servlet-name>webFragmentServlet</servlet-name>
+        <servlet-class>com.web.fragment.WebFragmentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>webFragmentServlet</servlet-name>
+        <url-pattern>/myWebFragmentServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-fragment>
+
+
+
+
